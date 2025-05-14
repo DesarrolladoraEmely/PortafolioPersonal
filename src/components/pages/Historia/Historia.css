@@ -1,0 +1,19 @@
+.fondo{
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.foto img{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.foto:hover{
+    border: 5px solid black;
+    transform: rotate(-3deg);
+
+}

@@ -5,3 +5,18 @@
 .foto:hover{
     filter: grayscale(0%)
 }
+.foto img{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.foto:hover{
+    border: 5px solid black;
+    transform: rotate(-3deg);
+
+}
